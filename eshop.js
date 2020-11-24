@@ -1,4 +1,4 @@
-Pour le chargement de la page
+
 
 setTimeout(loaderFadeOut, 2000);
 
@@ -9,8 +9,6 @@ function loaderFadeOut() {
   loader.style.height = 0;
 };
 
-
-Pour le chargement de la page 
 const tl = gsap.timeline({ defaults: { ease: "power1.out" } });
 
 tl.to(".text", { y: "0%", duration: 1, stagger: 0.25 });
